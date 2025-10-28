@@ -1,0 +1,44 @@
+# --- Terraform State Files ---
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+
+# Local crash logs
+crash.log
+
+# --- Terraform Plan Output ---
+*.tfplan
+
+# --- Terraform Module & Plugin Cache ---
+.terraform/
+.terraform.lock.hcl
+
+# --- Sensitive Files ---
+*.pem
+*.key
+*.crt
+*.p12
+*.tfvars
+*.tfvars.json
+secrets.auto.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# --- Environment Files ---
+.env
+.env.*
+
+# --- IDE / Editor Files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+
+# --- OS-specific Files ---
+*.log
